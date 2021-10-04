@@ -20,7 +20,7 @@ module.exports = {
 		render: 'writable',
 		userEvent: 'writable',
 	},
-	ignorePatterns: ['.eslintrc.js', 'node_modules', 'build'],
+	ignorePatterns: ['.eslintrc.js', 'node_modules', 'build', 'webpack'],
 	extends: [
 		'plugin:prettier/recommended',
 		'plugin:react/recommended',
